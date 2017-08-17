@@ -12,16 +12,16 @@ import android.widget.GridView;
 public class MainActivity extends AppCompatActivity {
 
     private String[] images = new String[]{
-            "https://s-media-cache-ak0.pinimg.com/736x/77/c4/e4/77c4e4dc8f65e6d9e6419c147c77c3a1.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/99/f4/17/99f417c511dfe517cdfd757cf84a4813.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/5d/87/74/5d87746b88da486db35d998bb1d3787f.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/3f/a7/79/3fa7797d95856823334052446ef42b5d.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/66/97/76/669776804ea51cae9b87e1b49172ab53.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/b7/68/fe/b768fefdc7ddf5d2fb74451e132749a3.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/32/74/e5/3274e582ac15651be40ad8d636bd52df.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/a9/28/40/a9284023087dcbac532b2f6a902629ab.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/0b/d6/18/0bd6181b114a0fe6ead4ec565b294e52.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/60/c3/94/60c394942923e9c3a73f57294da25a0d.jpg"
+            "https://s-media-cache-ak0.pinimg.com/originals/3c/91/28/3c9128672d9d23a12061ea2ec6b73702.jpg",
+            "http://1.bp.blogspot.com/_aZZHHFanjGc/SgMByK1761I/AAAAAAAAANA/FHjCAIrfP1k/s400/caricature_stevieg.jpg",
+            "https://i2.wp.com/skybacherslocker.com/wp-content/uploads/2014/10/sturridge_liverpool1.jpg?resize=282%2C402",
+            "https://s-media-cache-ak0.pinimg.com/736x/66/e8/b2/66e8b2a04cf4247c3e99bf26c8026a8d--football-pics-football-players.jpg",
+            "https://www.trollfootball.me/upload/thumb/1234561_984414054932144_439463606_n.jpg",
+            "https://ih1.redbubble.net/image.316203544.9689/flat,800x800,075,f.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRauLN_y1syk3FdsF4YLGBACozPpcivAeVDbPl5oMhas-yB1L2",
+            "https://scontent.cdninstagram.com/t51.2885-15/e35/13704122_1748840265363510_740236767_n.jpg?ig_cache_key=MTMxMjYxODAxNjk2NTY4NjAyMQ%3D%3D.2",
+            "https://www.toonpool.com/user/21238/files/lovren_liverpool_2890465.jpg",
+            "https://s-media-cache-ak0.pinimg.com/736x/1f/fe/a7/1ffea75af91234f0574ed56707b17f2d--football-players-liverpool.jpg"
     };
     private GridView gridItem;
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Dinosourus");
+        getSupportActionBar().setTitle("Liverpool Grapich");
         gridItem = (GridView)findViewById(R.id.grid_item);
         ItemGridAdapter itemGridAdapter = new ItemGridAdapter(MainActivity.this, images);
         gridItem.setAdapter(itemGridAdapter);

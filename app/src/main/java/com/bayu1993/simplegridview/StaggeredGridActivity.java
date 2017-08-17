@@ -13,16 +13,16 @@ import com.etsy.android.grid.StaggeredGridView;
 public class StaggeredGridActivity extends AppCompatActivity {
     private StaggeredGridView staggeredGridView;
     private String[] items = new String[]{
-            "https://s-media-cache-ak0.pinimg.com/736x/31/72/90/3172904c6591b127ac71b66b300a87f4.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/c4/93/d1/c493d196b1b4e0ff61d8cb4a13727916.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/54/a3/23/54a323dcafda85b7fda6883c00f2860a.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/80/d5/b8/80d5b8ccfef474f5c895400acdbea63b.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/0e/d7/7a/0ed77a3208f982a6f552fbf30f7d4a4c.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/7f/2e/79/7f2e790b6ebb34699b887181d7a6a3ed.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/fd/66/f0/fd66f045d95449469fa8b41b4b975edb.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/d7/57/ca/d757ca1df5224dc46633a42e3c34bb90.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/96/2a/d1/962ad10951a221f4ca26bb08e911da10.jpg",
-            "https://s-media-cache-ak0.pinimg.com/736x/ac/89/c7/ac89c7aaef5754bfd5d7b4a698fdb6cc.jpg"
+            "https://s-media-cache-ak0.pinimg.com/originals/3c/91/28/3c9128672d9d23a12061ea2ec6b73702.jpg",
+            "http://upload2.inven.co.kr/upload/2017/04/24/bbs/i14320163803.jpg",
+            "https://s3.amazonaws.com/lowres.cartoonstock.com/caricatures-jurgen_klopp-lfc-liverpool_football_club-football_manager-football_coach-pkin117_low.jpg",
+            "http://www.caricatures.ie/wp-content/uploads/2015/10/Jurgen-Klopp-liverpool.jpg",
+            "https://www.toonpool.com/user/21238/files/klopp_3_liverpool_2793345.jpg",
+            "http://i.dailymail.co.uk/i/pix/2015/10/12/13/2D545EED00000578-3269408-image-m-6_1444653944402.jpg",
+            "https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/12145109_1170269239669254_1991061154_n.jpg?ig_cache_key=MTExMDQ1NDQwNzkzNTMxNjQxMg%3D%3D.2",
+            "https://res.cloudinary.com/teepublic/image/private/s--71FHkTtW--/t_Preview/b_rgb:c62b29,c_limit,f_auto,h_313,q_90,w_313/v1462561073/production/designs/504703_1",
+            "http://orig13.deviantart.net/1135/f/2016/028/e/f/klopp_wpap2_by_wahyuwidiyanto-d9pmboi.jpg",
+            "https://i.pinimg.com/236x/ab/cd/24/abcd247ece0ba42eb2bcc4a2c2e38726--liverpool-tattoo-ronaldinho-poster.jpg"
     };
 
     @Override
@@ -30,7 +30,7 @@ public class StaggeredGridActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_staggered_grid);
 
-        getSupportActionBar().setTitle("Star Wars");
+        getSupportActionBar().setTitle("Jurgen Klopp Designs");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         staggeredGridView = (StaggeredGridView)findViewById(R.id.gv_staggered);
