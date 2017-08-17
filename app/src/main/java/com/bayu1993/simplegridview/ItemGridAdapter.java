@@ -26,7 +26,7 @@ public class ItemGridAdapter extends BaseAdapter {
 
     @Override
     public int getCount(){
-        return items.length();
+        return items.length;
     }
 
     @Override
